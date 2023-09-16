@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --sand-400: #f9d37fff;
+    --sand-800: #f7c866ff;
+    --tree-300: #c17508ff;
+    --tree-600: #b17520ff;
+    --tree-900: #a15f07ff;
+    --leaf-400: #59960bff;
+    --leaf-800: #457206;
+    --sky-400: #9bf2f5ff;
+    --sky-800: #b5ffffff;
+    --sun: #ffbc00ff;
+}
+
+.w-1000{
+    width: 1000px;
+}
+.h-1000{
+    height: 1000px;
+}
+.buy-info {
+    position: absolute;
+    background: #f7c866;
+    border: 2px solid #b3751d;
+    display: block;
+    width: 400px;
+    margin-top: -100px;
+    padding: 5px;
+    text-align: center;
+}
+.vdr-container {
+    background: #c17508ff;
+}
